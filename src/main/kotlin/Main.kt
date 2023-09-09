@@ -24,8 +24,7 @@ fun main(args: Array<String>) {
     //7-9 задание
     val triple = Triple (7,9,2023)
     val (day,month,year) = triple;
-    println("7-9. Месяц: $month")
-    println("Год: $year")
+    val (month1, _ , year1) = triple;
 
     //10 задание
     val month2 = "4";
